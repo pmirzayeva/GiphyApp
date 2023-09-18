@@ -53,6 +53,6 @@ async function renderGifs(title) {
 
         gifElement.innerHTML = content;
     } catch (err) {
-        console.log("network error");
+        console.log("error");
     }
 }
